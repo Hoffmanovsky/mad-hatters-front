@@ -51,6 +51,9 @@
     }
   }
 }
+
+//DESKTOP
+
 @media screen and ($rwd-xl) {
   .header {
     .container {
@@ -69,8 +72,11 @@
       font-size: 2rem;
       margin: 0 0 1.5rem;
     }
+    .heading {
+      font-size: 2rem;
+    }
     .decoration {
-      margin: 2rem 0;
+      margin: 1.75rem 0;
     }
     .nav {
       font-family: $font-secondary;
@@ -83,7 +89,7 @@
     .nav .link {
       display: block;
       padding: 0 1rem;
-      margin: 0 1.5rem;
+      margin: 1.75rem 1.5rem 0;
       color: $color-black-300;
       text-decoration: none;
     }
