@@ -29,16 +29,18 @@
   }
 }
 
-
 @media screen and ($rwd-xl) {
   .usps {
+    display: flex;
+    justify-content: center;
     .container {
       margin-top: 12.0625rem;
+      width: 73.1875rem;
     }
     .container ul {
       display: flex;
       flex-direction: row;
-      justify-content: space-around;
+      justify-content: space-between;
       align-items: center;
     }
     .container ul li .content {

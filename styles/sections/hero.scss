@@ -126,7 +126,7 @@
   }
 }
 
-@media screen and ($rwd-lg){
+@media screen and ($rwd-lg) {
   .hero {
     .content {
       margin-right: 20px;
@@ -136,7 +136,7 @@
 
 @media screen and ($rwd-xl) {
   .hero {
-    .container{
+    .container {
       margin: 0 20rem 0 12.5rem;
     }
     .container-front {
@@ -183,7 +183,6 @@
       color: #967675;
     }
 
-
     .images-wrapper > img {
       position: absolute;
       top: 0;
@@ -209,7 +208,7 @@
     .container-bg {
       position: absolute;
       top: 9rem;
-      right: 33rem;
+      right: 13rem;
     }
 
     .container-bg .outer {
