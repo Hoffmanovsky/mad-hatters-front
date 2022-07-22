@@ -20,13 +20,29 @@
   .heading {
     font: italic 400 2.37rem/3.17rem $font-primary;
   }
-  .content {
-  }
   .content p {
     font: 400 1rem/1.625rem $font-secondary;
     color: $color-beige-500;
     max-width: 14.625rem;
     width: 100%;
     margin: 0 0 0 auto;
+  }
+}
+
+
+@media screen and ($rwd-xl) {
+  .usps {
+    .container {
+      margin-top: 12.0625rem;
+    }
+    .container ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .container ul li .content {
+      margin-left: 3.8125rem;
+    }
   }
 }
