@@ -1,6 +1,4 @@
 .hero {
-  // display: flex;
-  // justify-content: center;
   overflow: hidden;
   .container {
     position: relative;
@@ -65,7 +63,6 @@
 
   .content {
     margin: 4.125rem 0 0;
-    padding-right: 3.0625rem;
     position: relative;
     z-index: 2;
   }
@@ -136,14 +133,17 @@
   .hero {
     .content {
       margin-right: 20px;
+      padding-right: 3.0625rem;
     }
   }
 }
 
 @media screen and ($rwd-xl) {
   .hero {
+    overflow: visible;
     .container {
       margin: 0 20rem 0 12.5rem;
+      padding-bottom: 2rem;
     }
     .container-front {
       display: flex;
